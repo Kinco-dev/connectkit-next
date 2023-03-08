@@ -13,6 +13,9 @@ export { default as SIWEButton } from './components/Standard/SIWE';
 export { default as Avatar } from './components/Common/Avatar';
 export { default as ChainIcon } from './components/Common/Chain';
 
+// Hooks
+export { useChains } from './hooks/useChains';
+
 // TODO: Make this private
 export { default as supportedConnectors } from './constants/supportedConnectors';
 export { default as ConnectKitModalDemo } from './components/ConnectModal/demo';
